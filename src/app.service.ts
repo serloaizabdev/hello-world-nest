@@ -4,6 +4,6 @@ import { Injectable } from '@nestjs/common';
 export class AppService {
   getHello(): string {
     const msg = process.env.MSG || 'wow it works';
-    return `Hello World From Nest! - ${msg}`;
+    return `Hello World From NestJS! - ${msg}`;
   }
 }
